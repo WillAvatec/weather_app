@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./main.js" defer></script>
+  <title>Weather App</title>
+</head>
+<body class="container h-screen flex justify-center items-center gap-y-9  flex-col bg-gradient-to-t from-green-200 bg-contain bg-no-repeat">
+  <div class="flex my-5 justify-center ">
+    <input class="outline-rose-400 border-slate-400 shadow-lg rounded-lg px-4 py-2" type="text" name="input" id="input" placeholder="Type some country..">
+  </div>
+  <div class="flex flex-col w-72 rounded-xl p-6  mx-10 shadow-2xl bg-rose-100 font-mono text-xl">
+    <p id="title" class="[text-shadow:_0_0_5px_rgb(0_0_0/_50%)] text-4xl mb-3 text-slate-900 font-bold">City Name</p>
+    <div class="data">
+      <p id="temperature">Temperature</p>
+      <p id="weather">Weather</p>
+      <p id="description" class="text-stone-500">Description</p>
+    </div>
+  </div>
+  <img id='imagen' class="w-80 h-80 object-contain" alt="#">
+</body>
+</html>
